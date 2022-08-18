@@ -1,15 +1,5 @@
-listauno=[]
-terminar=True
-while(terminar):
-    nombre = input("Ingrese el Nombre = ")
-    apellido = input("Ingrese el Apellido = ")
-    edad = int(input("Ingrese la Edad = "))
-    listauno.append([nombre, apellido, edad])
-    t = input("Desea Continuar S/N =")
-    if(t == "n"):
-        terminar = False
-print(listauno)
-listados=([nombre,apellido,edad])
-listados.reverse()
-print(listados)
-
+NumRango = int(input("Ingrese el numero de Rango que desee Ver:"))
+Fibonacci =[0,1]
+for i in range(NumRango-2):
+  Fibonacci.append(Fibonacci[-1]+Fibonacci[-2])
+print(Fibonacci)
