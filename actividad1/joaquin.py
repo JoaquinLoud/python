@@ -16,7 +16,6 @@ except :
     print("porfavor ingrese un numero ... ! ")
 mayor,intermedio, menor = 0,0,0
 
-
 if a > b and a > c:
     mayor = a
     if b > c:
@@ -25,7 +24,6 @@ if a > b and a > c:
     else:
            intermedio = c
            menor= b
-
 
 if b > a and b > c:
     mayor = b
@@ -36,7 +34,6 @@ if b > a and b > c:
           intermedio=c 
           menor = a
 
-
 if c > a and c > b:
     mayor = c
     if a > b:
@@ -45,6 +42,5 @@ if c > a and c > b:
     else:
         intermedio= b
         menor = a
-
 print(f"El numero mayor es {mayor}, El intermedio es {intermedio}, y el menor es {menor}")
 

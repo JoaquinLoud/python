@@ -11,7 +11,8 @@ Implemente este caso para que aprezca en forma correcta.
 edad = 0
 while edad < 1:
     edad = edad + 1
-    print (f"Felicidades, tienes  {edad} año") 
+    print (f"Felicidades, tienes  {edad} año")
+     
 while edad <18:
      edad = edad + 1
      print (f"Felicidades, tienes  {edad} años")
