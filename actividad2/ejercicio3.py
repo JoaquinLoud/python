@@ -1,3 +1,6 @@
+# Ejercicio 3
+# Crear una lista_uno y adicione elementos en ella hasta que el usuario elija terminar.
+# Una vez terminada, crear una segunda lista_dos, en ella llene los valores de lista_uno de forma descentente.
 listauno=[]
 terminar=True
 while(terminar):
